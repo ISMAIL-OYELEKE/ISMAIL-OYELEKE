@@ -23,7 +23,6 @@
 
 <br/>
 
-![Profile Views](https://komarev.com/ghpvc/?username=ISMAIL-OYELEKE&color=16a34a&style=flat-square&label=Profile+Views)
 ![Followers](https://img.shields.io/github/followers/ISMAIL-OYELEKE?style=flat-square&color=15803d&label=Followers&logo=github)
 
 </div>
