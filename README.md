@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:4c1d95,50:5b21b6,100:1e1b4b&height=220&section=header&text=Ismail%20Oyeleke&fontSize=54&fontColor=ffffff&fontAlignY=38&desc=Cloud%20Engineer%20%7C%20AWS%20Infrastructure%20%26%20DevOps&descSize=18&descAlignY=60" width="100%" alt="Header" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:4c1d95,50:5b21b6,100:1e1b4b&height=220&section=header&text=Ismail%20Oyeleke&fontSize=54&fontColor=ffffff&fontAlignY=45" width="100%" alt="Header" />
 
 <a href="https://github.com/ISMAIL-OYELEKE">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3200&pause=1000&color=A78BFA&center=true&vCenter=true&width=760&lines=AWS+Infrastructure+and+Serverless+Applications;Terraform%2C+CI%2FCD+and+Containers;Production+Web+Apps+for+Real+Businesses;Open+to+Junior+Cloud+and+DevOps+Roles" alt="Typing animation" />
@@ -301,21 +301,11 @@ Built and maintain web applications for small business clients, from requirement
 
 ---
 
-## Trophies
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=ISMAIL-OYELEKE&theme=onedark&no-frame=true&no-bg=true&margin-w=12&column=7" alt="GitHub trophies" />
-
-</div>
-
----
-
 ## Contribution Activity
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=ISMAIL-OYELEKE&bg_color=0d1117&color=a78bfa&line=8b5cf6&point=c4b5fd&area=true&area_color=4c1d95&hide_border=true" width="100%" alt="Contribution activity graph" />
+<img src="https://ghchart.rshah.org/6d28d9/ISMAIL-OYELEKE" width="100%" alt="Contribution activity graph" />
 
 </div>
 
