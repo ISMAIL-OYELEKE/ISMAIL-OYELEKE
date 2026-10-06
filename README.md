@@ -1,6 +1,10 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:052e16,55:15803d,100:c9a227&height=220&section=header&text=Ismail%20Oyeleke&fontSize=54&fontColor=ffffff&fontAlignY=45" width="100%" alt="Header" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:052e16,55:15803d,100:c9a227&height=140&section=header" width="100%" alt="Header" />
+
+<h1>Ismail Oyeleke</h1>
+
+<p><b>Cloud Engineer | AWS Infrastructure, Terraform and CI/CD</b></p>
 
 <a href="https://github.com/ISMAIL-OYELEKE">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3200&pause=1000&color=D4AF37&center=true&vCenter=true&width=760&lines=AWS+Infrastructure+and+Serverless+Applications;Terraform%2C+CI%2FCD+and+Containers;Production+Web+Apps+for+Real+Businesses;Open+to+Junior+Cloud+and+DevOps+Roles" alt="Typing animation" />
@@ -296,16 +300,6 @@ Built and maintain web applications for small business clients, from requirement
 <br/>
 
 <img src="https://streak-stats.demolab.com?user=ISMAIL-OYELEKE&theme=dark&hide_border=true&background=0D1117&ring=D4AF37&fire=22C55E&currStreakNum=F5D76E&sideNums=BBF7D0&currStreakLabel=D4AF37&sideLabels=4ADE80&dates=86EFAC" alt="Streak stats" />
-
-</div>
-
----
-
-## Contribution Activity
-
-<div align="center">
-
-<img src="https://ghchart.rshah.org/22c55e/ISMAIL-OYELEKE" width="100%" alt="Contribution activity graph" />
 
 </div>
 
