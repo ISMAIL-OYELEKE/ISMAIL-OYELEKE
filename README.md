@@ -1,26 +1,26 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:4c1d95,50:5b21b6,100:1e1b4b&height=220&section=header&text=Ismail%20Oyeleke&fontSize=54&fontColor=ffffff&fontAlignY=45" width="100%" alt="Header" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:052e16,55:15803d,100:c9a227&height=220&section=header&text=Ismail%20Oyeleke&fontSize=54&fontColor=ffffff&fontAlignY=45" width="100%" alt="Header" />
 
 <a href="https://github.com/ISMAIL-OYELEKE">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3200&pause=1000&color=A78BFA&center=true&vCenter=true&width=760&lines=AWS+Infrastructure+and+Serverless+Applications;Terraform%2C+CI%2FCD+and+Containers;Production+Web+Apps+for+Real+Businesses;Open+to+Junior+Cloud+and+DevOps+Roles" alt="Typing animation" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3200&pause=1000&color=D4AF37&center=true&vCenter=true&width=760&lines=AWS+Infrastructure+and+Serverless+Applications;Terraform%2C+CI%2FCD+and+Containers;Production+Web+Apps+for+Real+Businesses;Open+to+Junior+Cloud+and+DevOps+Roles" alt="Typing animation" />
 </a>
 
 <br/><br/>
 
-![BSc](https://img.shields.io/badge/BSc_Computer_Science-Kwara_State_University-4c1d95?style=for-the-badge&logo=googlescholar&logoColor=white)
-![Honors](https://img.shields.io/badge/First_Class_Honors-CGPA_3.85%2F4.00-5b21b6?style=for-the-badge)
-![Location](https://img.shields.io/badge/Location-Lagos%2C_Nigeria-6d28d9?style=for-the-badge&logo=googlemaps&logoColor=white)
+![BSc](https://img.shields.io/badge/BSc_Computer_Science-Kwara_State_University-14532d?style=for-the-badge&logo=googlescholar&logoColor=white)
+![Honors](https://img.shields.io/badge/First_Class_Honors-CGPA_3.85%2F4.00-166534?style=for-the-badge)
+![Location](https://img.shields.io/badge/Location-Lagos%2C_Nigeria-15803d?style=for-the-badge&logo=googlemaps&logoColor=white)
 
-<a href="https://ismailoyeleke.com/"><img src="https://img.shields.io/badge/Portfolio-ismailoyeleke.com-4338ca?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
-<a href="https://www.linkedin.com/in/ismail-oyeleke-6930b6317/"><img src="https://img.shields.io/badge/LinkedIn-Connect-2563eb?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-<a href="mailto:ismailoyeleke2003@gmail.com"><img src="https://img.shields.io/badge/Gmail-Email_Me-6d28d9?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-<a href="https://github.com/ISMAIL-OYELEKE"><img src="https://img.shields.io/badge/GitHub-ISMAIL--OYELEKE-4c1d95?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+<a href="https://ismailoyeleke.com/"><img src="https://img.shields.io/badge/Portfolio-ismailoyeleke.com-a16207?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
+<a href="https://www.linkedin.com/in/ismail-oyeleke-6930b6317/"><img src="https://img.shields.io/badge/LinkedIn-Connect-a16207?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+<a href="mailto:ismailoyeleke2003@gmail.com"><img src="https://img.shields.io/badge/Gmail-Email_Me-15803d?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+<a href="https://github.com/ISMAIL-OYELEKE"><img src="https://img.shields.io/badge/GitHub-ISMAIL--OYELEKE-14532d?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
 
 <br/>
 
-![Profile Views](https://komarev.com/ghpvc/?username=ISMAIL-OYELEKE&color=7c3aed&style=flat-square&label=Profile+Views)
-![Followers](https://img.shields.io/github/followers/ISMAIL-OYELEKE?style=flat-square&color=6d28d9&label=Followers&logo=github)
+![Profile Views](https://komarev.com/ghpvc/?username=ISMAIL-OYELEKE&color=16a34a&style=flat-square&label=Profile+Views)
+![Followers](https://img.shields.io/github/followers/ISMAIL-OYELEKE?style=flat-square&color=15803d&label=Followers&logo=github)
 
 </div>
 
@@ -203,7 +203,7 @@ Built and operated the delivery and infrastructure layer for internal applicatio
 - Implemented CloudWatch monitoring to support incident detection and troubleshooting
 - Delivered the serverless staff portal and a contact centre for a microfinance client
 
-![AWS](https://img.shields.io/badge/AWS-4c1d95?style=flat-square) ![Terraform](https://img.shields.io/badge/Terraform-5b21b6?style=flat-square) ![CloudFormation](https://img.shields.io/badge/CloudFormation-6d28d9?style=flat-square) ![Jenkins](https://img.shields.io/badge/Jenkins-4338ca?style=flat-square) ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-3730a3?style=flat-square) ![ECS](https://img.shields.io/badge/ECS_EKS_Fargate-7c3aed?style=flat-square) ![CloudWatch](https://img.shields.io/badge/CloudWatch-2563eb?style=flat-square)
+![AWS](https://img.shields.io/badge/AWS-14532d?style=flat-square) ![Terraform](https://img.shields.io/badge/Terraform-166534?style=flat-square) ![CloudFormation](https://img.shields.io/badge/CloudFormation-15803d?style=flat-square) ![Jenkins](https://img.shields.io/badge/Jenkins-a16207?style=flat-square) ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-854d0e?style=flat-square) ![ECS](https://img.shields.io/badge/ECS_EKS_Fargate-16a34a?style=flat-square) ![CloudWatch](https://img.shields.io/badge/CloudWatch-a16207?style=flat-square)
 
 ### Freelance Full-Stack Developer | Independent
 `Freelance` | Nigeria
@@ -214,7 +214,7 @@ Built and maintain web applications for small business clients, from requirement
 - Built a hardened marketing website with strict security headers and an automated QA suite
 - Work through pull requests with preview deployments, and ship database changes as reviewed, reversible migrations
 
-![Next.js](https://img.shields.io/badge/Next.js-4c1d95?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-5b21b6?style=flat-square) ![Supabase](https://img.shields.io/badge/Supabase-6d28d9?style=flat-square) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4338ca?style=flat-square) ![Vercel](https://img.shields.io/badge/Vercel-3730a3?style=flat-square)
+![Next.js](https://img.shields.io/badge/Next.js-14532d?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-166534?style=flat-square) ![Supabase](https://img.shields.io/badge/Supabase-15803d?style=flat-square) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-a16207?style=flat-square) ![Vercel](https://img.shields.io/badge/Vercel-854d0e?style=flat-square)
 
 ### C# .NET Developer, Intern | KGE Technologies
 `Jul 2025 to Dec 2025` | Remote, Chennai, India
@@ -224,7 +224,7 @@ Built and maintain web applications for small business clients, from requirement
 - Worked with Entity Framework Core on database operations and query optimisation
 - Delivered changes with Git and Agile workflows
 
-![ASP.NET Core](https://img.shields.io/badge/ASP.NET_Core-4c1d95?style=flat-square) ![C#](https://img.shields.io/badge/C%23-5b21b6?style=flat-square) ![EF Core](https://img.shields.io/badge/Entity_Framework_Core-6d28d9?style=flat-square) ![JWT](https://img.shields.io/badge/JWT-4338ca?style=flat-square)
+![ASP.NET Core](https://img.shields.io/badge/ASP.NET_Core-14532d?style=flat-square) ![C#](https://img.shields.io/badge/C%23-166534?style=flat-square) ![EF Core](https://img.shields.io/badge/Entity_Framework_Core-15803d?style=flat-square) ![JWT](https://img.shields.io/badge/JWT-a16207?style=flat-square)
 
 ### IT Support Specialist, Intern | Federal Airports Authority of Nigeria (FAAN)
 `Sep 2023 to Feb 2024` | On-site, Lagos, Nigeria
@@ -232,7 +232,7 @@ Built and maintain web applications for small business clients, from requirement
 - Provided support for computer hardware, network connectivity and IT configuration issues
 - Diagnosed and resolved user incidents and carried out routine system maintenance
 
-![Networking](https://img.shields.io/badge/Networking-4c1d95?style=flat-square) ![Troubleshooting](https://img.shields.io/badge/Incident_Resolution-5b21b6?style=flat-square) ![Hardware](https://img.shields.io/badge/IT_Support-6d28d9?style=flat-square)
+![Networking](https://img.shields.io/badge/Networking-14532d?style=flat-square) ![Troubleshooting](https://img.shields.io/badge/Incident_Resolution-166534?style=flat-square) ![Hardware](https://img.shields.io/badge/IT_Support-15803d?style=flat-square)
 
 ---
 
@@ -257,18 +257,18 @@ Built and maintain web applications for small business clients, from requirement
 
 **AWS**
 
-![SAA](https://img.shields.io/badge/Solutions_Architect-Associate-4c1d95?style=for-the-badge&logo=amazonaws&logoColor=white)
-![CCP](https://img.shields.io/badge/Cloud_Practitioner-Foundational-5b21b6?style=for-the-badge&logo=amazonaws&logoColor=white)
-![Partner](https://img.shields.io/badge/AWS_Partner-Technical_Accredited-6d28d9?style=for-the-badge&logo=amazonaws&logoColor=white)
+![SAA](https://img.shields.io/badge/Solutions_Architect-Associate-14532d?style=for-the-badge&logo=amazonaws&logoColor=white)
+![CCP](https://img.shields.io/badge/Cloud_Practitioner-Foundational-166534?style=for-the-badge&logo=amazonaws&logoColor=white)
+![Partner](https://img.shields.io/badge/AWS_Partner-Technical_Accredited-15803d?style=for-the-badge&logo=amazonaws&logoColor=white)
 
 **Cloud Native**
 
-![KCNA](https://img.shields.io/badge/KCNA-Kubernetes_and_Cloud_Native_Associate-326ce5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![KCNA](https://img.shields.io/badge/KCNA-Kubernetes_and_Cloud_Native_Associate-15803d?style=for-the-badge&logo=kubernetes&logoColor=white)
 
 **Multi-Cloud and Training**
 
-![Aviatrix](https://img.shields.io/badge/Aviatrix-Multi--Cloud_Associate-4338ca?style=for-the-badge)
-![ALX](https://img.shields.io/badge/ALX-Cloud_Practitioner-3730a3?style=for-the-badge)
+![Aviatrix](https://img.shields.io/badge/Aviatrix-Multi--Cloud_Associate-a16207?style=for-the-badge)
+![ALX](https://img.shields.io/badge/ALX-Cloud_Practitioner-854d0e?style=for-the-badge)
 
 </div>
 
@@ -278,9 +278,9 @@ Built and maintain web applications for small business clients, from requirement
 
 <div align="center">
 
-<a href="https://medium.com/@ismailoyeleke2003"><img src="https://img.shields.io/badge/Medium-Technical_Blog-4c1d95?style=for-the-badge&logo=medium&logoColor=white" alt="Medium" /></a>
-<a href="https://www.youtube.com/@learn_with_ismail_oyeleke"><img src="https://img.shields.io/badge/YouTube-Learn_With_Ismail-5b21b6?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube" /></a>
-<a href="https://x.com/ismail_oyeleke_"><img src="https://img.shields.io/badge/X-Follow-6d28d9?style=for-the-badge&logo=x&logoColor=white" alt="X" /></a>
+<a href="https://medium.com/@ismailoyeleke2003"><img src="https://img.shields.io/badge/Medium-Technical_Blog-14532d?style=for-the-badge&logo=medium&logoColor=white" alt="Medium" /></a>
+<a href="https://www.youtube.com/@learn_with_ismail_oyeleke"><img src="https://img.shields.io/badge/YouTube-Learn_With_Ismail-166534?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube" /></a>
+<a href="https://x.com/ismail_oyeleke_"><img src="https://img.shields.io/badge/X-Follow-15803d?style=for-the-badge&logo=x&logoColor=white" alt="X" /></a>
 
 </div>
 
@@ -290,12 +290,12 @@ Built and maintain web applications for small business clients, from requirement
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=ISMAIL-OYELEKE&show_icons=true&hide_border=true&bg_color=0d1117&title_color=a78bfa&text_color=c4b5fd&icon_color=8b5cf6" height="170" alt="GitHub stats" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ISMAIL-OYELEKE&layout=compact&hide_border=true&bg_color=0d1117&title_color=a78bfa&text_color=c4b5fd" height="170" alt="Top languages" />
+<img src="https://github-readme-stats.vercel.app/api?username=ISMAIL-OYELEKE&show_icons=true&hide_border=true&bg_color=0d1117&title_color=d4af37&text_color=bbf7d0&icon_color=22c55e" height="170" alt="GitHub stats" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ISMAIL-OYELEKE&layout=compact&hide_border=true&bg_color=0d1117&title_color=d4af37&text_color=bbf7d0" height="170" alt="Top languages" />
 
 <br/>
 
-<img src="https://streak-stats.demolab.com?user=ISMAIL-OYELEKE&theme=dark&hide_border=true&background=0D1117&ring=8B5CF6&fire=A78BFA&currStreakNum=C4B5FD&sideNums=C4B5FD&currStreakLabel=A78BFA&sideLabels=A78BFA&dates=8B5CF6" alt="Streak stats" />
+<img src="https://streak-stats.demolab.com?user=ISMAIL-OYELEKE&theme=dark&hide_border=true&background=0D1117&ring=D4AF37&fire=22C55E&currStreakNum=F5D76E&sideNums=BBF7D0&currStreakLabel=D4AF37&sideLabels=4ADE80&dates=86EFAC" alt="Streak stats" />
 
 </div>
 
@@ -305,7 +305,7 @@ Built and maintain web applications for small business clients, from requirement
 
 <div align="center">
 
-<img src="https://ghchart.rshah.org/6d28d9/ISMAIL-OYELEKE" width="100%" alt="Contribution activity graph" />
+<img src="https://ghchart.rshah.org/22c55e/ISMAIL-OYELEKE" width="100%" alt="Contribution activity graph" />
 
 </div>
 
@@ -344,10 +344,10 @@ open_to:
 
 <div align="center">
 
-<a href="mailto:ismailoyeleke2003@gmail.com"><img src="https://img.shields.io/badge/Gmail-ismailoyeleke2003-6d28d9?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" /></a>
-<a href="https://www.linkedin.com/in/ismail-oyeleke-6930b6317/"><img src="https://img.shields.io/badge/LinkedIn-Ismail_Oyeleke-2563eb?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-<a href="https://github.com/ISMAIL-OYELEKE"><img src="https://img.shields.io/badge/GitHub-ISMAIL--OYELEKE-4c1d95?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
-<a href="https://ismailoyeleke.com/"><img src="https://img.shields.io/badge/Portfolio-ismailoyeleke.com-4338ca?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
+<a href="mailto:ismailoyeleke2003@gmail.com"><img src="https://img.shields.io/badge/Gmail-ismailoyeleke2003-15803d?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" /></a>
+<a href="https://www.linkedin.com/in/ismail-oyeleke-6930b6317/"><img src="https://img.shields.io/badge/LinkedIn-Ismail_Oyeleke-a16207?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+<a href="https://github.com/ISMAIL-OYELEKE"><img src="https://img.shields.io/badge/GitHub-ISMAIL--OYELEKE-14532d?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+<a href="https://ismailoyeleke.com/"><img src="https://img.shields.io/badge/Portfolio-ismailoyeleke.com-a16207?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
 
 </div>
 
@@ -357,6 +357,6 @@ open_to:
 
 <i>Build it so it runs without you, then document it so anyone can take over.</i>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:4c1d95,50:5b21b6,100:1e1b4b&height=120&section=footer" width="100%" alt="Footer" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:052e16,55:15803d,100:c9a227&height=120&section=footer" width="100%" alt="Footer" />
 
 </div>
