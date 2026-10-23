@@ -7,7 +7,7 @@
 <p><b>Cloud Engineer | AWS Infrastructure, Terraform and CI/CD</b></p>
 
 <a href="https://github.com/ISMAIL-OYELEKE">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3200&pause=1000&color=D4AF37&center=true&vCenter=true&width=760&lines=AWS+Infrastructure+and+Serverless+Applications;Terraform%2C+CI%2FCD+and+Containers;Production+Web+Apps+for+Real+Businesses;Open+to+Junior+Cloud+and+DevOps+Roles" alt="Typing animation" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3200&pause=1000&color=D4AF37&center=true&vCenter=true&width=760&lines=AWS+Infrastructure+and+Serverless+Applications;Terraform%2C+CI%2FCD+and+Containers;Production+Web+Apps+for+Real+Businesses;Open+to+Cloud+and+DevOps+Roles" alt="Typing animation" />
 </a>
 
 <br/><br/>
