@@ -41,7 +41,7 @@ I also build and maintain production web apps for small businesses. That include
 
 **Open to**
 
-- Junior and associate Cloud, DevOps, Platform and Cloud Support roles
+- Cloud, DevOps, Platform and Cloud Support roles
 - Relocation with employer sponsorship
 - Remote roles that can hire from Nigeria
 
