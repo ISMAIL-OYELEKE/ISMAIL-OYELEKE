@@ -1,29 +1,29 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:052e16,55:15803d,100:c9a227&height=140&section=header" width="100%" alt="Header" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,55:0e7490,100:22d3ee&height=140&section=header" width="100%" alt="Header" />
 
 <h1>Ismail Oyeleke</h1>
 
 <p><b>Cloud Engineer | AWS Infrastructure, Terraform and CI/CD</b></p>
 
 <a href="https://github.com/ISMAIL-OYELEKE">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3200&pause=1000&color=D4AF37&center=true&vCenter=true&width=760&lines=AWS+Infrastructure+and+Serverless+Applications;Terraform%2C+CI%2FCD+and+Containers;Production+Web+Apps+for+Real+Businesses;Open+to+Cloud+and+DevOps+Roles" alt="Typing animation" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3200&pause=1000&color=22d3ee&center=true&vCenter=true&width=760&lines=AWS+Infrastructure+and+Serverless+Applications;Terraform%2C+CI%2FCD+and+Containers;Production+Web+Apps+for+Real+Businesses;Open+to+Cloud+and+DevOps+Roles" alt="Typing animation" />
 </a>
 
 <br/><br/>
 
-![BSc](https://img.shields.io/badge/BSc_Computer_Science-Kwara_State_University-14532d?style=for-the-badge&logo=googlescholar&logoColor=white)
-![Honors](https://img.shields.io/badge/First_Class_Honors-CGPA_3.85%2F4.00-166534?style=for-the-badge)
-![Location](https://img.shields.io/badge/Location-Lagos%2C_Nigeria-15803d?style=for-the-badge&logo=googlemaps&logoColor=white)
+![BSc](https://img.shields.io/badge/BSc_Computer_Science-Kwara_State_University-164e63?style=for-the-badge&logo=googlescholar&logoColor=white)
+![Honors](https://img.shields.io/badge/First_Class_Honors-CGPA_3.85%2F4.00-155e75?style=for-the-badge)
+![Location](https://img.shields.io/badge/Location-Lagos%2C_Nigeria-0e7490?style=for-the-badge&logo=googlemaps&logoColor=white)
 
-<a href="https://ismailoyeleke.com/"><img src="https://img.shields.io/badge/Portfolio-ismailoyeleke.com-a16207?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
-<a href="https://www.linkedin.com/in/ismail-oyeleke-6930b6317/"><img src="https://img.shields.io/badge/LinkedIn-Connect-a16207?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-<a href="mailto:ismailoyeleke2003@gmail.com"><img src="https://img.shields.io/badge/Gmail-Email_Me-15803d?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-<a href="https://github.com/ISMAIL-OYELEKE"><img src="https://img.shields.io/badge/GitHub-ISMAIL--OYELEKE-14532d?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+<a href="https://ismailoyeleke.com/"><img src="https://img.shields.io/badge/Portfolio-ismailoyeleke.com-0891b2?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
+<a href="https://www.linkedin.com/in/ismail-oyeleke-6930b6317/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0891b2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+<a href="mailto:ismailoyeleke2003@gmail.com"><img src="https://img.shields.io/badge/Gmail-Email_Me-0e7490?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+<a href="https://github.com/ISMAIL-OYELEKE"><img src="https://img.shields.io/badge/GitHub-ISMAIL--OYELEKE-164e63?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
 
 <br/>
 
-![Followers](https://img.shields.io/github/followers/ISMAIL-OYELEKE?style=flat-square&color=15803d&label=Followers&logo=github)
+![Followers](https://img.shields.io/github/followers/ISMAIL-OYELEKE?style=flat-square&color=0e7490&label=Followers&logo=github)
 
 </div>
 
@@ -85,6 +85,26 @@ AWS services: Lambda, API Gateway, DynamoDB, EventBridge, SES, S3, CloudFront, R
 ---
 
 ## Featured Projects
+
+<details>
+<summary><b>Kestrel Loan Platform</b> | payday-proof microfinance loan platform on AWS</summary>
+
+<br/>
+
+A loan platform for a microfinance bank, built on AWS in five days from a brief, tested at 25 times normal payday traffic, then torn down for about USD 9.20. It replaces a single server that went down almost every month when salaries landed and scored loans overnight.
+
+| | |
+|:--|:--|
+| **Stack** | Terraform, ECS Fargate, Application Load Balancer, WAF, RDS PostgreSQL (Multi-AZ), SQS, Lambda, KMS, CloudWatch, GitHub Actions, Python, Docker |
+| **Architecture** | API on Fargate across two Availability Zones with auto scaling and a higher minimum on payday, loans scored seconds after arrival by a Lambda behind an SQS queue with a dead-letter queue, and a database lock so a repeated message never produces two decisions |
+| **Security** | BVN encrypted with KMS plus an HMAC lookup hash, so it never appears in the database, logs or API responses. No internet route for servers or database (VPC endpoints only), CloudTrail audit log, GuardDuty, Security Hub and AWS Config |
+| **Delivery** | Lint, tests, Checkov and a Terraform plan on every pull request, GitHub Actions signing in to AWS with OIDC instead of access keys, and a human approval before prod |
+| **Results** | Load test: 19,602 requests, 0 failed, p95 of 58 ms against a 1 second target. Restore drill: newest restore point 4 min 44 s old, service stable 21 minutes after the restore started. Deliberately broken deployment rolled back by itself |
+| **Repository** | [View on GitHub](https://github.com/ISMAIL-OYELEKE/kestrel-platform) |
+
+Includes ten architecture decision records, a runbook, a design document and screenshot evidence for each requirement. Write-ups: [case study](https://ismailoyeleke.com/projects/kestrel-loan-platform), [video walkthrough](https://youtu.be/dCuNLgKuf78) and [Medium article](https://medium.com/@ismailoyeleke2003/i-built-a-loan-platform-on-aws-broke-it-on-purpose-and-tore-it-down-for-usd-9-20-e758f948ecd4).
+
+</details>
 
 <details>
 <summary><b>Serverless Staff Portal</b> | leave and payroll-advance workflows on AWS</summary>
@@ -206,7 +226,7 @@ Built and operated the delivery and infrastructure layer for internal applicatio
 - Implemented CloudWatch monitoring to support incident detection and troubleshooting
 - Delivered the serverless staff portal and a contact centre for a microfinance client
 
-![AWS](https://img.shields.io/badge/AWS-14532d?style=flat-square) ![Terraform](https://img.shields.io/badge/Terraform-166534?style=flat-square) ![CloudFormation](https://img.shields.io/badge/CloudFormation-15803d?style=flat-square) ![Jenkins](https://img.shields.io/badge/Jenkins-a16207?style=flat-square) ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-854d0e?style=flat-square) ![ECS](https://img.shields.io/badge/ECS_EKS_Fargate-16a34a?style=flat-square) ![CloudWatch](https://img.shields.io/badge/CloudWatch-a16207?style=flat-square)
+![AWS](https://img.shields.io/badge/AWS-164e63?style=flat-square) ![Terraform](https://img.shields.io/badge/Terraform-155e75?style=flat-square) ![CloudFormation](https://img.shields.io/badge/CloudFormation-0e7490?style=flat-square) ![Jenkins](https://img.shields.io/badge/Jenkins-0891b2?style=flat-square) ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-155e75?style=flat-square) ![ECS](https://img.shields.io/badge/ECS_EKS_Fargate-06b6d4?style=flat-square) ![CloudWatch](https://img.shields.io/badge/CloudWatch-0891b2?style=flat-square)
 
 ### Freelance Full-Stack Developer | Independent
 `Freelance` | Nigeria
@@ -217,7 +237,7 @@ Built and maintain web applications for small business clients, from requirement
 - Built a hardened marketing website with strict security headers and an automated QA suite
 - Work through pull requests with preview deployments, and ship database changes as reviewed, reversible migrations
 
-![Next.js](https://img.shields.io/badge/Next.js-14532d?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-166534?style=flat-square) ![Supabase](https://img.shields.io/badge/Supabase-15803d?style=flat-square) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-a16207?style=flat-square) ![Vercel](https://img.shields.io/badge/Vercel-854d0e?style=flat-square)
+![Next.js](https://img.shields.io/badge/Next.js-164e63?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-155e75?style=flat-square) ![Supabase](https://img.shields.io/badge/Supabase-0e7490?style=flat-square) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0891b2?style=flat-square) ![Vercel](https://img.shields.io/badge/Vercel-155e75?style=flat-square)
 
 ### C# .NET Developer, Intern | KGE Technologies
 `Jul 2025 to Dec 2025` | Remote, Chennai, India
@@ -227,7 +247,7 @@ Built and maintain web applications for small business clients, from requirement
 - Worked with Entity Framework Core on database operations and query optimisation
 - Delivered changes with Git and Agile workflows
 
-![ASP.NET Core](https://img.shields.io/badge/ASP.NET_Core-14532d?style=flat-square) ![C#](https://img.shields.io/badge/C%23-166534?style=flat-square) ![EF Core](https://img.shields.io/badge/Entity_Framework_Core-15803d?style=flat-square) ![JWT](https://img.shields.io/badge/JWT-a16207?style=flat-square)
+![ASP.NET Core](https://img.shields.io/badge/ASP.NET_Core-164e63?style=flat-square) ![C#](https://img.shields.io/badge/C%23-155e75?style=flat-square) ![EF Core](https://img.shields.io/badge/Entity_Framework_Core-0e7490?style=flat-square) ![JWT](https://img.shields.io/badge/JWT-0891b2?style=flat-square)
 
 ### IT Support Specialist, Intern | Federal Airports Authority of Nigeria (FAAN)
 `Sep 2023 to Feb 2024` | On-site, Lagos, Nigeria
@@ -235,7 +255,7 @@ Built and maintain web applications for small business clients, from requirement
 - Provided support for computer hardware, network connectivity and IT configuration issues
 - Diagnosed and resolved user incidents and carried out routine system maintenance
 
-![Networking](https://img.shields.io/badge/Networking-14532d?style=flat-square) ![Troubleshooting](https://img.shields.io/badge/Incident_Resolution-166534?style=flat-square) ![Hardware](https://img.shields.io/badge/IT_Support-15803d?style=flat-square)
+![Networking](https://img.shields.io/badge/Networking-164e63?style=flat-square) ![Troubleshooting](https://img.shields.io/badge/Incident_Resolution-155e75?style=flat-square) ![Hardware](https://img.shields.io/badge/IT_Support-0e7490?style=flat-square)
 
 ---
 
@@ -260,18 +280,18 @@ Built and maintain web applications for small business clients, from requirement
 
 **AWS**
 
-![SAA](https://img.shields.io/badge/Solutions_Architect-Associate-14532d?style=for-the-badge&logo=amazonaws&logoColor=white)
-![CCP](https://img.shields.io/badge/Cloud_Practitioner-Foundational-166534?style=for-the-badge&logo=amazonaws&logoColor=white)
-![Partner](https://img.shields.io/badge/AWS_Partner-Technical_Accredited-15803d?style=for-the-badge&logo=amazonaws&logoColor=white)
+![SAA](https://img.shields.io/badge/Solutions_Architect-Associate-164e63?style=for-the-badge&logo=amazonaws&logoColor=white)
+![CCP](https://img.shields.io/badge/Cloud_Practitioner-Foundational-155e75?style=for-the-badge&logo=amazonaws&logoColor=white)
+![Partner](https://img.shields.io/badge/AWS_Partner-Technical_Accredited-0e7490?style=for-the-badge&logo=amazonaws&logoColor=white)
 
 **Cloud Native**
 
-![KCNA](https://img.shields.io/badge/KCNA-Kubernetes_and_Cloud_Native_Associate-15803d?style=for-the-badge&logo=kubernetes&logoColor=white)
+![KCNA](https://img.shields.io/badge/KCNA-Kubernetes_and_Cloud_Native_Associate-0e7490?style=for-the-badge&logo=kubernetes&logoColor=white)
 
 **Multi-Cloud and Training**
 
-![Aviatrix](https://img.shields.io/badge/Aviatrix-Multi--Cloud_Associate-a16207?style=for-the-badge)
-![ALX](https://img.shields.io/badge/ALX-Cloud_Practitioner-854d0e?style=for-the-badge)
+![Aviatrix](https://img.shields.io/badge/Aviatrix-Multi--Cloud_Associate-0891b2?style=for-the-badge)
+![ALX](https://img.shields.io/badge/ALX-Cloud_Practitioner-155e75?style=for-the-badge)
 
 </div>
 
@@ -281,9 +301,9 @@ Built and maintain web applications for small business clients, from requirement
 
 <div align="center">
 
-<a href="https://medium.com/@ismailoyeleke2003"><img src="https://img.shields.io/badge/Medium-Technical_Blog-14532d?style=for-the-badge&logo=medium&logoColor=white" alt="Medium" /></a>
-<a href="https://www.youtube.com/@learn_with_ismail_oyeleke"><img src="https://img.shields.io/badge/YouTube-Learn_With_Ismail-166534?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube" /></a>
-<a href="https://x.com/ismail_oyeleke_"><img src="https://img.shields.io/badge/X-Follow-15803d?style=for-the-badge&logo=x&logoColor=white" alt="X" /></a>
+<a href="https://medium.com/@ismailoyeleke2003"><img src="https://img.shields.io/badge/Medium-Technical_Blog-164e63?style=for-the-badge&logo=medium&logoColor=white" alt="Medium" /></a>
+<a href="https://www.youtube.com/@learn_with_ismail_oyeleke"><img src="https://img.shields.io/badge/YouTube-Learn_With_Ismail-155e75?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube" /></a>
+<a href="https://x.com/ismail_oyeleke_"><img src="https://img.shields.io/badge/X-Follow-0e7490?style=for-the-badge&logo=x&logoColor=white" alt="X" /></a>
 
 </div>
 
@@ -293,12 +313,12 @@ Built and maintain web applications for small business clients, from requirement
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=ISMAIL-OYELEKE&show_icons=true&hide_border=true&bg_color=0d1117&title_color=d4af37&text_color=bbf7d0&icon_color=22c55e" height="170" alt="GitHub stats" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ISMAIL-OYELEKE&layout=compact&hide_border=true&bg_color=0d1117&title_color=d4af37&text_color=bbf7d0" height="170" alt="Top languages" />
+<img src="https://github-readme-stats.vercel.app/api?username=ISMAIL-OYELEKE&show_icons=true&hide_border=true&bg_color=0d1117&title_color=22d3ee&text_color=c9d1d9&icon_color=67e8f9" height="170" alt="GitHub stats" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ISMAIL-OYELEKE&layout=compact&hide_border=true&bg_color=0d1117&title_color=22d3ee&text_color=c9d1d9" height="170" alt="Top languages" />
 
 <br/>
 
-<img src="https://streak-stats.demolab.com?user=ISMAIL-OYELEKE&theme=dark&hide_border=true&background=0D1117&ring=D4AF37&fire=22C55E&currStreakNum=F5D76E&sideNums=BBF7D0&currStreakLabel=D4AF37&sideLabels=4ADE80&dates=86EFAC" alt="Streak stats" />
+<img src="https://streak-stats.demolab.com?user=ISMAIL-OYELEKE&theme=dark&hide_border=true&background=0D1117&ring=22d3ee&fire=67e8f9&currStreakNum=a5f3fc&sideNums=c9d1d9&currStreakLabel=22d3ee&sideLabels=67e8f9&dates=8b949e" alt="Streak stats" />
 
 </div>
 
@@ -327,7 +347,7 @@ building:
 exploring:
   - AI-integrated applications on AWS
 open_to:
-  - Junior and associate Cloud, DevOps and Platform roles
+  - Cloud, DevOps and Platform roles
   - Relocation with sponsorship or remote work from Nigeria
 ```
 
@@ -337,10 +357,10 @@ open_to:
 
 <div align="center">
 
-<a href="mailto:ismailoyeleke2003@gmail.com"><img src="https://img.shields.io/badge/Gmail-ismailoyeleke2003-15803d?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" /></a>
-<a href="https://www.linkedin.com/in/ismail-oyeleke-6930b6317/"><img src="https://img.shields.io/badge/LinkedIn-Ismail_Oyeleke-a16207?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-<a href="https://github.com/ISMAIL-OYELEKE"><img src="https://img.shields.io/badge/GitHub-ISMAIL--OYELEKE-14532d?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
-<a href="https://ismailoyeleke.com/"><img src="https://img.shields.io/badge/Portfolio-ismailoyeleke.com-a16207?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
+<a href="mailto:ismailoyeleke2003@gmail.com"><img src="https://img.shields.io/badge/Gmail-ismailoyeleke2003-0e7490?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" /></a>
+<a href="https://www.linkedin.com/in/ismail-oyeleke-6930b6317/"><img src="https://img.shields.io/badge/LinkedIn-Ismail_Oyeleke-0891b2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+<a href="https://github.com/ISMAIL-OYELEKE"><img src="https://img.shields.io/badge/GitHub-ISMAIL--OYELEKE-164e63?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+<a href="https://ismailoyeleke.com/"><img src="https://img.shields.io/badge/Portfolio-ismailoyeleke.com-0891b2?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
 
 </div>
 
@@ -350,6 +370,6 @@ open_to:
 
 <i>Build it so it runs without you, then document it so anyone can take over.</i>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:052e16,55:15803d,100:c9a227&height=120&section=footer" width="100%" alt="Footer" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,55:0e7490,100:22d3ee&height=120&section=footer" width="100%" alt="Footer" />
 
 </div>
