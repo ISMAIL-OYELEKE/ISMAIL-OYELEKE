@@ -328,7 +328,7 @@ Built and maintain web applications for small business clients, from requirement
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/ISMAIL-OYELEKE/ISMAIL-OYELEKE/output/github-snake-dark.svg" width="100%" alt="Contribution snake" />
+<img src="https://raw.githubusercontent.com/ISMAIL-OYELEKE/ISMAIL-OYELEKE/output/github-snake-dark.svg?v=cyan" width="100%" alt="Contribution snake" />
 
 </div>
 
