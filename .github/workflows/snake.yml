@@ -1,4 +1,4 @@
-name: Generate Snake Animation
+name: Generate Profile Cards
 
 on:
   schedule:
@@ -22,6 +22,22 @@ jobs:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/github-snake-dark.svg?palette=github-dark&color_snake=#22d3ee&color_dots=#161b22,#164e63,#0e7490,#06b6d4,#67e8f9
+
+      - name: Generate GitHub stats card
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&show_icons=true&hide_border=true&bg_color=0d1117&title_color=22d3ee&text_color=c9d1d9&icon_color=67e8f9
+          path: dist/github-stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate top languages card
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: username=${{ github.repository_owner }}&layout=compact&langs_count=8&hide_border=true&bg_color=0d1117&title_color=22d3ee&text_color=c9d1d9
+          path: dist/top-langs.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Push to the output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
