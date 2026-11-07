@@ -313,8 +313,8 @@ Built and maintain web applications for small business clients, from requirement
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=ISMAIL-OYELEKE&show_icons=true&hide_border=true&bg_color=0d1117&title_color=22d3ee&text_color=c9d1d9&icon_color=67e8f9" height="170" alt="GitHub stats" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ISMAIL-OYELEKE&layout=compact&hide_border=true&bg_color=0d1117&title_color=22d3ee&text_color=c9d1d9" height="170" alt="Top languages" />
+<img src="https://raw.githubusercontent.com/ISMAIL-OYELEKE/ISMAIL-OYELEKE/output/github-stats.svg" height="170" alt="GitHub stats" />
+<img src="https://raw.githubusercontent.com/ISMAIL-OYELEKE/ISMAIL-OYELEKE/output/top-langs.svg" height="170" alt="Top languages" />
 
 <br/>
 
